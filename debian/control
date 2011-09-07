@@ -11,11 +11,10 @@ Build-Depends: debhelper (>= 8.0.0),
 Standards-Version: 3.9.2
 Homepage: http://cdlszm.org
 
-
 Package: plasma-widget-daisy
 Architecture: any
 Depends: ${shlibs:Depends}, 
-         ${misc:Depends}, 
+         ${misc:Depends}
 Description: Mac like dock for Plasma/KDE 
  Daisy is a simple Plasma/KDE application launcher.
  .
