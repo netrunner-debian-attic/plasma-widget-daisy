@@ -16,7 +16,7 @@ Package: plasma-widget-daisy
 Architecture: any
 Depends: ${shlibs:Depends}, 
          ${misc:Depends}, 
-Description: Mac like dock for Plasma/KDE. 
+Description: Mac like dock for Plasma/KDE 
  Daisy is a simple Plasma/KDE application launcher.
  .
  Main features:
@@ -28,3 +28,12 @@ Description: Mac like dock for Plasma/KDE.
   - Hybrid launchers to launch applications and control running tasks
   - Plugins to provide information and execute several tasks
   - Various backgrounds available
+
+Package: plasma-widget-daisy-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: plasma-widget-daisy (= ${binary:Version}),
+         ${misc:Depends}
+Description: Mac like dock for Plasma/KDE (debugging symbols)
+ This package contains the debugging symbols for plasma-widget-daisy
