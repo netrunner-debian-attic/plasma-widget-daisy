@@ -10,12 +10,14 @@ Build-Depends: debhelper (>= 8.0.0),
 	       libx11-dev
 Standards-Version: 3.9.2
 Homepage: http://cdlszm.org
+Vcs-Git: git://git.debian.org/git/pkg-kde/kde-extras/plasma-widget-daisy.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/plasma-widget-daisy.git
 
 Package: plasma-widget-daisy
 Architecture: any
 Depends: ${shlibs:Depends}, 
          ${misc:Depends}
-Description: Mac like dock for Plasma/KDE 
+Description: Mac-like dock for Plasma/KDE 
  Daisy is a simple Plasma/KDE application launcher.
  .
  Main features:
@@ -34,5 +36,5 @@ Section: debug
 Priority: extra
 Depends: plasma-widget-daisy (= ${binary:Version}),
          ${misc:Depends}
-Description: Mac like dock for Plasma/KDE (debugging symbols)
- This package contains the debugging symbols for plasma-widget-daisy
+Description: Mac-like dock for Plasma/KDE (debugging symbols)
+ This package contains the debugging symbols for plasma-widget-daisy.
