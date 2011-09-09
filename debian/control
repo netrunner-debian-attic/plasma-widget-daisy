@@ -17,7 +17,7 @@ Package: plasma-widget-daisy
 Architecture: any
 Depends: ${shlibs:Depends}, 
          ${misc:Depends}
-Description: an application launcher dock for Plasma/KDE 
+Description: an application launcher dock for KDE Plasma workspaces 
  Daisy is a simple Plasma/KDE application launcher.
  .
  Main features:
@@ -36,5 +36,5 @@ Section: debug
 Priority: extra
 Depends: plasma-widget-daisy (= ${binary:Version}),
          ${misc:Depends}
-Description: an application launcher dock for Plasma/KDE (debugging symbols)
+Description: an application launcher dock for KDE Plasma workspaces (debugging symbols)
  This package contains the debugging symbols for plasma-widget-daisy.
