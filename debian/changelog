@@ -1,5 +1,6 @@
 plasma-widget-daisy (0.0.4.25-2) unstable; urgency=low
 
+  * Change build dependency to renamed kde-workspace-dev.
 
  -- Eshat Cakar <info@eshat.de>  Thu, 22 Mar 2012 00:02:06 +0100
 
