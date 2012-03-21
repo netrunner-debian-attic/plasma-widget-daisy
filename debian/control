@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 8.0.0),
 	       kde-workspace-dev,
 	       pkg-kde-tools(>= 0.7.0),
 	       libx11-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://cdlszm.org
 Vcs-Git: git://git.debian.org/git/pkg-kde/kde-extras/plasma-widget-daisy.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/plasma-widget-daisy.git
