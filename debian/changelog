@@ -2,6 +2,7 @@ plasma-widget-daisy (0.0.4.25-2) unstable; urgency=low
 
   * Change build dependency to renamed kde-workspace-dev.
   * Bump Standards-Version to 3.9.3, no further changes.
+  * Add proper DEP5 link to copyright file.
 
  -- Eshat Cakar <info@eshat.de>  Thu, 22 Mar 2012 00:02:06 +0100
 
